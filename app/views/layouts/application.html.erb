@@ -3,13 +3,21 @@
 <head>
   <title>KGarryBlog</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag "https://bootswatch.com/readable/bootstrap.min.css" %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div class="container">
+  <div class="jumbotron">
+    <center><h2>K. Garry's Blog</h2></center>
+  </div>
 
-<%= yield %>
+  <%= yield %>
 
+  <hr>
+  <center><%= link_to "Home", posts_path %></center>
+</div>
 
 </body>
 </html>
