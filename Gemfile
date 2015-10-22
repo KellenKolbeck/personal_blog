@@ -20,8 +20,10 @@ group :test, :development do
   gem 'rspec-rails'
   gem 'launchy'
   gem 'pry'
+  gem 'simplecov'
 end
 
 group :test do
   gem 'shoulda-matchers'
+  gem 'capybara'
 end

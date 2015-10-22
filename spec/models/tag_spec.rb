@@ -1,5 +1,5 @@
 require 'rails_helper'
 
-describe List do
+describe Tag do
   it { should validate_presence_of :name }
 end
