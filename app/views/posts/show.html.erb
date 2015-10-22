@@ -12,9 +12,21 @@
 <h3>Tags: </h3>
 <ul>
   <% @post.tags.each do |tag| %>
-    <li><b><em><%= link_to tag.name, tag_path(tag) %></b></em> | <%= link_to 'Edit Tag', edit_post_tag_path(@post, tag) %></li>
+    <li><b><em><%= link_to tag.name, tag_path(tag) %></b></em> | <%= link_to 'Remove Tag', post_tag_path(@post, tag), :data => {:confirm => "Are you sure?", :method => "delete"} %></li>
     <% end %>
 
 </ul>
 
-<h4><%= link_to "Add A Tag", new_post_tag_path(@post) %></h4>
+<h4>Choose from existing tags:</h4>
+  <select class="form-control" id="venue" name="venue">
+    <% @tags.each() do |tag| %>
+    <option value="<%= tag.id() %>"><%= tag.name() %></option>
+    <% end %>
+  </select>
+
+
+
+<h3>OR:</h3>
+
+
+<h4><%= link_to "Add A New Tag", new_post_tag_path(@post) %></h4>
