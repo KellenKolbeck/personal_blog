@@ -1,4 +1,5 @@
 class TagsController < ApplicationController
+  before_action :authenticate_user!
 
   def new
     @post = Post.find(params[:post_id])
