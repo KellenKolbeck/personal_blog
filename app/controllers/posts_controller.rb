@@ -21,7 +21,6 @@ class PostsController < ApplicationController
       @post = Post.find(params[:id])
       @tags = Tag.all
       @tag = Tag.find(params[:id])
-
     end
 
     def edit

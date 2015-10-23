@@ -11,7 +11,9 @@
 <h3>Comments:</h3>
 <ul>
   <% @post.comments.order(created_at: :desc).each do |comment| %>
-    <li><%= comment.comment_body %> posted <%= time_ago_in_words(comment.created_at) %> ago</li>
+    <li><%= comment.comment_body %> posted <%= time_ago_in_words(comment.created_at) %> ago
+    | <%= link_to 'Edit', edit_post_comment_path(@post, comment) %>
+    | <%= link_to 'Delete', post_comment_path(@post, comment), :data => {:confirm => "Are you sure?", :method => "delete"}%></li>
   <% end %>
 </ul>
 <h4>Add a comment to this post: <%= link_to "Add comment", new_post_comment_path(@post) %></h4>
