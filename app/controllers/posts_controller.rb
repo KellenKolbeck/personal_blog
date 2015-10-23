@@ -20,6 +20,7 @@ class PostsController < ApplicationController
     def show
       @post = Post.find(params[:id])
       @tags = Tag.all
+      # @comments = Comment.find(params[:post_id])
     end
 
     def edit

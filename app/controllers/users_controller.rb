@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  
+  has_many :comments
 
   private
     def user_params
