@@ -18,15 +18,7 @@
 </ul>
 
 <h4>Choose from existing tags:</h4>
-  <select class="form-control" id="venue" name="venue">
-    <% @tags.each() do |tag| %>
-    <option value="<%= tag.id() %>"><%= tag.name() %></option>
-    <% end %>
-  </select>
-
-
-
+<%= collection_select(:post, :id, Tag.all, :id, :name, :prompt => true) %>
+| <%= link_to "Add tag", tag_post_path(@post, @tag) %>
 <h3>OR:</h3>
-
-
-<h4><%= link_to "Add A New Tag", new_post_tag_path(@post) %></h4>
+<h4><%= link_to "Add a New Tag", new_post_tag_path(@post) %></h4>

@@ -7,3 +7,10 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 User.create(email: 'randy@thecat.com', password: 'pdx123pdx456pdx789', admin: true)
+
+Tag.create(name: 'Fun')
+Tag.create(name: 'Awesome')
+Tag.create(name: 'Animals')
+Tag.create(name: 'People')
+Tag.create(name: 'Friends')
+Tag.create(name: 'Familly')
