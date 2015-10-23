@@ -8,6 +8,15 @@
 
 <br>
 <br>
+<h3>Comments:</h3>
+<ul>
+  <% @post.comments.each do |comment| %>
+    <li><%= comment.comment_body %> posted <%= time_ago_in_words(comment.created_at) ago %></li>
+  <% end %>
+</ul>
+<h4>Add a comment to this post: <%= link_to "Add comment", new_post_comment_path(@post) %></h4>
+<br>
+<br>
 
 <h3>Tags: </h3>
 <ul>
@@ -19,6 +28,6 @@
 
 <h4>Choose from existing tags:</h4>
 <%= collection_select(:post, :id, Tag.all, :id, :name, :prompt => true) %>
-| <%= link_to "Add tag", tag_post_path(@post, @tag) %>
+| <%= link_to "Add tag", edit_post_tag_path(@post, @tag) %>
 <h3>OR:</h3>
 <h4><%= link_to "Add a New Tag", new_post_tag_path(@post) %></h4>

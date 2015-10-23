@@ -21,7 +21,7 @@ class PostsController < ApplicationController
       @post = Post.find(params[:id])
       @tags = Tag.all
       @tag = Tag.find(params[:id])
-      # @comments = Comment.find(params[:post_id])
+
     end
 
     def edit
