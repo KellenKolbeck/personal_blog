@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Guest/Desktop/personal_blog/spec/features/add_post_pages_spec.rb": [
+      "/Users/kellenkolbeck/Desktop/k_garry_blog/spec/features/add_post_pages_spec.rb": [
         1,
         null,
         1,
@@ -15,7 +15,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_blog/spec/rails_helper.rb": [
+      "/Users/kellenkolbeck/Desktop/k_garry_blog/spec/rails_helper.rb": [
         null,
         1,
         1,
@@ -75,14 +75,14 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_blog/config/environment.rb": [
+      "/Users/kellenkolbeck/Desktop/k_garry_blog/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/personal_blog/config/application.rb": [
+      "/Users/kellenkolbeck/Desktop/k_garry_blog/config/application.rb": [
         1,
         null,
         1,
@@ -119,12 +119,12 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_blog/config/boot.rb": [
+      "/Users/kellenkolbeck/Desktop/k_garry_blog/config/boot.rb": [
         1,
         null,
         1
       ],
-      "/Users/Guest/Desktop/personal_blog/config/environments/test.rb": [
+      "/Users/kellenkolbeck/Desktop/k_garry_blog/config/environments/test.rb": [
         1,
         null,
         null,
@@ -168,7 +168,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_blog/config/initializers/assets.rb": [
+      "/Users/kellenkolbeck/Desktop/k_garry_blog/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -181,7 +181,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_blog/config/initializers/backtrace_silencers.rb": [
+      "/Users/kellenkolbeck/Desktop/k_garry_blog/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -190,18 +190,18 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_blog/config/initializers/cookies_serializer.rb": [
+      "/Users/kellenkolbeck/Desktop/k_garry_blog/config/initializers/cookies_serializer.rb": [
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/personal_blog/config/initializers/filter_parameter_logging.rb": [
+      "/Users/kellenkolbeck/Desktop/k_garry_blog/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/personal_blog/config/initializers/inflections.rb": [
+      "/Users/kellenkolbeck/Desktop/k_garry_blog/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -219,18 +219,18 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_blog/config/initializers/mime_types.rb": [
+      "/Users/kellenkolbeck/Desktop/k_garry_blog/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_blog/config/initializers/session_store.rb": [
+      "/Users/kellenkolbeck/Desktop/k_garry_blog/config/initializers/session_store.rb": [
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/personal_blog/config/initializers/wrap_parameters.rb": [
+      "/Users/kellenkolbeck/Desktop/k_garry_blog/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -246,7 +246,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_blog/spec/factories.rb": [
+      "/Users/kellenkolbeck/Desktop/k_garry_blog/spec/factories.rb": [
         1,
         1,
         1,
@@ -254,7 +254,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_blog/config/routes.rb": [
+      "/Users/kellenkolbeck/Desktop/k_garry_blog/config/routes.rb": [
         1,
         1,
         1,
@@ -266,27 +266,13 @@
         1,
         null
       ],
-      "/Users/Guest/Desktop/personal_blog/app/helpers/application_helper.rb": [
+      "/Users/kellenkolbeck/Desktop/k_garry_blog/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/Guest/Desktop/personal_blog/spec/features/delete_post_pages_spec.rb": [
+      "/Users/kellenkolbeck/Desktop/k_garry_blog/spec/features/delete_post_pages_spec.rb": [
         1,
         null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/Guest/Desktop/personal_blog/spec/features/edit_post_pages_spec.rb": [
-        1,
-        null,
-        1,
-        1,
         1,
         1,
         1,
@@ -296,7 +282,21 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_blog/spec/models/post_spec.rb": [
+      "/Users/kellenkolbeck/Desktop/k_garry_blog/spec/features/edit_post_pages_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/kellenkolbeck/Desktop/k_garry_blog/spec/models/post_spec.rb": [
         1,
         null,
         1,
@@ -304,27 +304,27 @@
         2,
         null
       ],
-      "/Users/Guest/Desktop/personal_blog/app/models/post.rb": [
+      "/Users/kellenkolbeck/Desktop/k_garry_blog/app/models/post.rb": [
         1,
         1,
         1,
         1,
         null
       ],
-      "/Users/Guest/Desktop/personal_blog/spec/models/tag_spec.rb": [
+      "/Users/kellenkolbeck/Desktop/k_garry_blog/spec/models/tag_spec.rb": [
         1,
         null,
         1,
         2,
         null
       ],
-      "/Users/Guest/Desktop/personal_blog/app/models/tag.rb": [
+      "/Users/kellenkolbeck/Desktop/k_garry_blog/app/models/tag.rb": [
         1,
         1,
         1,
         null
       ],
-      "/Users/Guest/Desktop/personal_blog/app/controllers/posts_controller.rb": [
+      "/Users/kellenkolbeck/Desktop/k_garry_blog/app/controllers/posts_controller.rb": [
         1,
         1,
         5,
@@ -346,6 +346,7 @@
         null,
         1,
         1,
+        1,
         null,
         null,
         1,
@@ -377,7 +378,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_blog/app/controllers/application_controller.rb": [
+      "/Users/kellenkolbeck/Desktop/k_garry_blog/app/controllers/application_controller.rb": [
         1,
         null,
         null,
@@ -385,6 +386,6 @@
         null
       ]
     },
-    "timestamp": 1445546869
+    "timestamp": 1445580572
   }
 }
