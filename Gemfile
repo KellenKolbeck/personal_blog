@@ -9,6 +9,7 @@ gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem "factory_girl_rails", "~> 4.0"
+gem 'devise'
 
 group :development do
   gem 'byebug'
@@ -27,4 +28,8 @@ end
 group :test do
   gem 'shoulda-matchers'
   gem 'capybara'
+end
+
+group :production do
+  gem 'rails_12factor'
 end
