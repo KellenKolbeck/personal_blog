@@ -10,8 +10,8 @@
 <br>
 <h3>Comments:</h3>
 <ul>
-  <% @post.comments.each do |comment| %>
-    <li><%= comment.comment_body %> posted <%= time_ago_in_words(comment.created_at) ago %></li>
+  <% @post.comments.order(created_at: :desc).each do |comment| %>
+    <li><%= comment.comment_body %> posted <%= time_ago_in_words(comment.created_at) %> ago</li>
   <% end %>
 </ul>
 <h4>Add a comment to this post: <%= link_to "Add comment", new_post_comment_path(@post) %></h4>
